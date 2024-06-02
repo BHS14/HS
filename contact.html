@@ -7,21 +7,23 @@
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <!-- Header + Nav -->
-  <div id = "nav" class = " containter flex row">
-    <a href = "index.html"><h1 style = "margin-right:860px;">Title</h1></a>
-    <nav><a href = "edu.html">Education Hub </a>
-    <a href = "sip.html">The SIP </a>
-    <a href = "career.html">Careers </a>
-      <a href = "about.html">About Us </a>
-    <a href = "contact.html">Contact Us </a></nav>
-
-  </div>
+  <nav class = "flex row" id = "nav">
+    <a href = "index.html"><h1>Title</h1></a>
+  <a href = "edu.html">Education Hub </a>
+  <a href = "sip.html">The SIP </a>
+  <a href = "career.html">Careers </a>
+  <a href = "about.html">About Us </a>
+  <a href = "contact.html">Contact Us </a></nav>
   <div id = "top_search" class = " containter flex row" > 
-    <input type = "text" placeholder = "Input Stock Ticker Here"> <button>Search</button>
+    <form>
+      <button onclick = ''><i style = "font-size:18px;" class="fa fa-search"></i></button>
+      <input id = "searchID" type = "text" placeholder = "Input Stock Ticker..." style = " border: none;outline: none;">
+    </form>
   </div>
   <hr>
     <!-- End Header + Nav -->

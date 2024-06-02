@@ -9,20 +9,22 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div id = "nav" class = " containter flex row">
-    <a href = "index.html"><h1 style = "margin-right:860px;">Title</h1></a>
-    <nav><a href = "edu.html">Education Hub </a>
-    <a href = "sip.html">The SIP </a>
-    <a href = "career.html">Careers </a>
-      <a href = "about.html">About Us </a>
-    <a href = "contact.html">Contact Us </a></nav>
-
-  </div>
+  <nav class = "flex row" id = "nav">
+    <a href = "index.html"><h1>Title</h1></a>
+  <a href = "edu.html">Education Hub </a>
+  <a href = "sip.html">The SIP </a>
+  <a href = "career.html">Careers </a>
+  <a href = "about.html">About Us </a>
+  <a href = "contact.html">Contact Us </a></nav>
   <div id = "top_search" class = " containter flex row" > 
-    <input type = "text" placeholder = "Input Stock Ticker Here"> <button>Search</button>
+    <form>
+      <button onclick = ''><i style = "font-size:18px;" class="fa fa-search"></i></button>
+      <input id = "searchID" type = "text" placeholder = "Input Stock Ticker..." style = " border: none;outline: none;">
+    </form>
   </div>
   <hr>
   <div class="container">
